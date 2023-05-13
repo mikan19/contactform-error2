@@ -2,7 +2,7 @@
 $dbUserName = 'root';
 $dbPassword = 'password';
 $pdo = new PDO(
-    'mysql:dbname=tqcontactform;host=mysql;charset=utf8',
+    'mysql:dbname=contactform;host=mysql;charset=utf8',
     $dbUserName,
     $dbPassword
 );
